@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Registration</h2>
+    <!-- action points to the PHP file that will process the data -->
+    <form action="process.php" method="POST">
+        Prénoms : <input type="text" name="first_name" required><br><br>
+        Nom : <input type="text" name="last_name" required><br><br>
+        
+        Relationship status:
+        <select name="relationship">
+            <option value="SINGLE">SINGLE</option>
+            <option value="COUPLE">COUPLE</option>
+            <option value="CHILDREN">CHILDREN</option>
+        </select><br><br>
+        
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+</html>
+<!-- https://www.w3schools.com/html/html_forms.asp -->
+<!-- https://stackoverflow.com/questions/17966390/how-do-i-make-a-field-required-in-html -->
